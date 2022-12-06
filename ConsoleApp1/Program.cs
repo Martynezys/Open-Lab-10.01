@@ -11,8 +11,13 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Book LOTR = new Book();
-            LOTR.title = "PPSH";
-            Console.WriteLine(LOTR.title);
+            LOTR.Title("Lord of The Rings");
+            LOTR.Pages(1028);
+            LOTR.Catgeory("Fantazy");
+            LOTR.Author("Oliver Krska");
+            LOTR.ReleaseDate(1985);
+            LOTR.OlkoBolko();
+            Console.ReadLine();
         }
     }
 }
